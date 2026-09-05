@@ -1,7 +1,8 @@
+python-telegram-bot==20.8
 pyTelegramBotAPI==4.14.0
+Flask==3.0.3
 requests==2.32.3
 pycryptodome==3.20.0
-Flask==3.0.3
+protobuf==6.31.1
 urllib3==2.2.2
-protobuf==4.25.3
 gunicorn==22.0.0
