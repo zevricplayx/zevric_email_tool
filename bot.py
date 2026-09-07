@@ -88,7 +88,7 @@ def check_rate(user_id: int) -> bool:
     CHANGE_TOKEN, CHANGE_CONFIRM, CHANGE_OTP_OLD, CHANGE_IDENTITY, CHANGE_NEW_EMAIL, CHANGE_OTP_NEW, CHANGE_VERIFY_NEW, CHANGE_DONE,  # change_bind_email
     CANCEL_TOKEN, CANCEL_CONFIRM,                 # cancel_bind
     REVOKE_TOKEN, REVOKE_CONFIRM, REVOKE_REFRESH  # revoke_access_token
-) = range(100)
+) = range(28)
 
 # -------------- Common confirmation text ----------------
 REQUIRED_CONFIRM_TEXT = "I confirm I own this account"
